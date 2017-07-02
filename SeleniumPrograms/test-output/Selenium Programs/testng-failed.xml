@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Selenium Programs]">
+  <test name="Selecting check box and radio button(failed)">
+    <classes>
+      <class name="pack1.CheckboxRadioButtonSelect">
+        <methods>
+          <include name="SelectRadioButton"/>
+        </methods>
+      </class> <!-- pack1.CheckboxRadioButtonSelect -->
+    </classes>
+  </test> <!-- Selecting check box and radio button(failed) -->
+</suite> <!-- Failed suite [Selenium Programs] -->

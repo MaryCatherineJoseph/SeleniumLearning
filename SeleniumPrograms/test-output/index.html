@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Selenium_Programs">
+              <span class="suite-name border-passed">Selenium Programs</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Selenium_Programs">
+                    <span>D:\SeleniumLearning\SeleniumPrograms\TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Selenium_Programs">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Selenium_Programs">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Selenium_Programs">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Selenium_Programs">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Selenium_Programs">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Selenium_Programs">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Selenium_Programs" class="hide-methods passed suite-Selenium_Programs"> (hide)</a> <!-- hide-methods passed suite-Selenium_Programs -->
+                      <a href="#" panel-name="suite-Selenium_Programs" class="show-methods passed suite-Selenium_Programs"> (show)</a> <!-- show-methods passed suite-Selenium_Programs -->
+                    </span>
+                    <div class="method-list-content passed suite-Selenium_Programs">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.CheckboxRadioButtonSelect" hash-for-method="CheckBoxSelect">CheckBoxSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.DropDownSelect" hash-for-method="DropDown">DropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.LaunchBrowser" hash-for-method="LaunchChrome">LaunchChrome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.CheckboxRadioButtonSelect" hash-for-method="MultipleCheckBoxSelect">MultipleCheckBoxSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.CheckboxRadioButtonSelect" hash-for-method="SelectRadioButton">SelectRadioButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.TextBoxFillingAndButtonCick" hash-for-method="TextBoxFilling">TextBoxFilling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.DownloadFile" hash-for-method="downloadFile">downloadFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Programs" title="pack1.SendSearchTermKeys" hash-for-method="sendSearchTerm">sendSearchTerm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Selenium_Programs -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Selenium_Programs" class="panel Selenium_Programs">
+          <div class="suite-Selenium_Programs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack1.SendSearchTermKeys</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendSearchTerm">
+                  </a> <!-- sendSearchTerm -->
+                  <span class="method-name">sendSearchTerm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Programs-class-passed -->
+          <div class="suite-Selenium_Programs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack1.LaunchBrowser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchChrome">
+                  </a> <!-- LaunchChrome -->
+                  <span class="method-name">LaunchChrome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Programs-class-passed -->
+          <div class="suite-Selenium_Programs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack1.DownloadFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadFile">
+                  </a> <!-- downloadFile -->
+                  <span class="method-name">downloadFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Programs-class-passed -->
+          <div class="suite-Selenium_Programs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack1.TextBoxFillingAndButtonCick</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TextBoxFilling">
+                  </a> <!-- TextBoxFilling -->
+                  <span class="method-name">TextBoxFilling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Programs-class-passed -->
+          <div class="suite-Selenium_Programs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack1.CheckboxRadioButtonSelect</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckBoxSelect">
+                  </a> <!-- CheckBoxSelect -->
+                  <span class="method-name">CheckBoxSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MultipleCheckBoxSelect">
+                  </a> <!-- MultipleCheckBoxSelect -->
+                  <span class="method-name">MultipleCheckBoxSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectRadioButton">
+                  </a> <!-- SelectRadioButton -->
+                  <span class="method-name">SelectRadioButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Programs-class-passed -->
+          <div class="suite-Selenium_Programs-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pack1.DropDownSelect</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DropDown">
+                  </a> <!-- DropDown -->
+                  <span class="method-name">DropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Programs-class-passed -->
+        </div> <!-- panel Selenium_Programs -->
+        <div panel-name="test-xml-Selenium_Programs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SeleniumLearning\SeleniumPrograms\TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Selenium Programs&quot;&gt;
+  &lt;test name=&quot;Launching a browser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pack1.LaunchBrowser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Launching a browser --&gt;
+  &lt;test name=&quot;Download a File&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pack1.DownloadFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Download a File --&gt;
+  &lt;test name=&quot;Send a search term&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pack1.SendSearchTermKeys&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Send a search term --&gt;
+  &lt;test name=&quot;TextBox Filling and Button Click&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pack1.TextBoxFillingAndButtonCick&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TextBox Filling and Button Click --&gt;
+  &lt;test name=&quot;Selecting a drop down&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pack1.DropDownSelect&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Selecting a drop down --&gt;
+  &lt;test name=&quot;Selecting check box and radio button&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pack1.CheckboxRadioButtonSelect&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Selecting check box and radio button --&gt;
+&lt;/suite&gt; &lt;!-- Selenium Programs --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Selenium_Programs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Selenium Programs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Launching a browser (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Download a File (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Send a search term (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TextBox Filling and Button Click (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Selecting a drop down (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Selecting check box and radio button (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Selenium_Programs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Selenium Programs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Selenium_Programs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Selenium Programs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Selenium_Programs');
+function tableData_Selenium_Programs() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TextBoxFilling')
+data.setCell(0, 2, 'pack1.TextBoxFillingAndButtonCick')
+data.setCell(0, 3, 24321);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'downloadFile')
+data.setCell(1, 2, 'pack1.DownloadFile')
+data.setCell(1, 3, 21703);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DropDown')
+data.setCell(2, 2, 'pack1.DropDownSelect')
+data.setCell(2, 3, 21139);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SelectRadioButton')
+data.setCell(3, 2, 'pack1.CheckboxRadioButtonSelect')
+data.setCell(3, 3, 17557);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MultipleCheckBoxSelect')
+data.setCell(4, 2, 'pack1.CheckboxRadioButtonSelect')
+data.setCell(4, 3, 11004);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CheckBoxSelect')
+data.setCell(5, 2, 'pack1.CheckboxRadioButtonSelect')
+data.setCell(5, 3, 9567);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LaunchChrome')
+data.setCell(6, 2, 'pack1.LaunchBrowser')
+data.setCell(6, 3, 8305);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sendSearchTerm')
+data.setCell(7, 2, 'pack1.SendSearchTermKeys')
+data.setCell(7, 3, 8159);
+window.suiteTableData['Selenium_Programs']= { tableData: data, tableDiv: 'times-div-Selenium_Programs'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Selenium_Programs">
+              </div> <!-- times-div-Selenium_Programs -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Selenium_Programs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Selenium Programs</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Selenium_Programs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Selenium_Programs" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack1.LaunchBrowser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LaunchChrome</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack1.DownloadFile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">downloadFile</span>
+                <span class="method-start">8548 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack1.SendSearchTermKeys</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sendSearchTerm</span>
+                <span class="method-start">30276 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack1.TextBoxFillingAndButtonCick</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TextBoxFilling</span>
+                <span class="method-start">38482 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack1.DropDownSelect</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DropDown</span>
+                <span class="method-start">62816 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pack1.CheckboxRadioButtonSelect</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckBoxSelect</span>
+                <span class="method-start">83980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MultipleCheckBoxSelect</span>
+                <span class="method-start">93554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectRadioButton</span>
+                <span class="method-start">104569 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

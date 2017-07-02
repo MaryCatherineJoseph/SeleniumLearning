@@ -1,33 +1,42 @@
 package pack1;
 
 import org.openqa.selenium.By;
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class DownloadFile {
+import commonPack.CommonActions;
 
-	static WebDriver driver;
+
+public class DownloadFile {	
 	
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	void downloadFile() throws InterruptedException {
 		// TODO Auto-generated method stub
-
-		System.out.println("Launching chrome browser");
-		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver\\chromedriver.exe");
-		driver=new ChromeDriver();
-		driver.get("http://google.com");
-		WebElement element=driver.findElement(By.xpath("//*[@id='lst-ib']"));
+		
+		CommonActions commonActions=new CommonActions();
+		commonActions.LaunchBrowser();
+		
+		WebDriver driver1=commonActions.getDriver();
+		driver1.get("http://google.com");
+		
+		WebElement element=driver1.findElement(By.xpath("//*[@id='lst-ib']"));
 		element.click();
 		element.sendKeys("download selenium latest jar");
 		Thread.sleep(2000);
-		WebElement element2=driver.findElement(By.xpath("//*[@id='sbse0']/div[2]"));
+		WebElement element2=driver1.findElement(By.xpath("//*[@id='sbse0']/div[2]"));
 		element2.click();
 		Thread.sleep(2000);
-		WebElement element3=driver.findElement(By.linkText("Download selenium-java-2.3.0.jar : selenium java « s « Jar File ..."));
+		WebElement element3=driver1.findElement(By.linkText("Download selenium-java-2.3.0.jar : selenium java « s « Jar File ..."));
 		Thread.sleep(1000);
 		element3.click();
-		WebElement element4= driver.findElement(By.xpath("/html/body/div/div/div[2]/a"));
+		WebElement element4= driver1.findElement(By.xpath("/html/body/div/div/div[2]/a"));
 		element4.click();
+		
+		Thread.sleep(1000);
+		commonActions.QuitBrowser();
 		
 	}
 

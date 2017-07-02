@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Programs" thread-count="1" verbose="1" parallel="false">
+
+  <test name="Launching a browser">
+   	<classes>
+      <class name="pack1.LaunchBrowser"/>
+    </classes>
+  </test>
+  
+  <test name="Download a File" >
+    <classes>
+      <class name="pack1.DownloadFile"/>
+       </classes>
+       </test>
+       
+  <test name="Send a search term">
+    <classes>
+      <class name="pack1.SendSearchTermKeys"/>
+     </classes>
+  </test>
+ 
+  <test name="TextBox Filling and Button Click">
+    <classes>
+      <class name="pack1.TextBoxFillingAndButtonCick"/>
+    </classes>
+  </test>
+      
+  <test name="Selecting a drop down">
+    <classes>
+      <class name="pack1.DropDownSelect"/>
+    </classes>
+ </test>
+
+  <test name="Selecting check box and radio button">
+   	<classes>
+      <class name="pack1.CheckboxRadioButtonSelect"/>
+    </classes>
+  </test>
+
+</suite>
