@@ -37,4 +37,17 @@
     </classes>
   </test>
 
+<test name="Handling Alerts">
+   	<classes>
+      <class name="pack1.AlertHandling"/>
+    </classes>
+  </test>
+  
+  <test name="Sending Email">
+   	<classes>
+      <class name="pack1.TestReport"/>
+    </classes>
+  </test>
+
+
 </suite>

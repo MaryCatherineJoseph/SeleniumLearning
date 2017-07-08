@@ -1,65 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium Programs" duration-ms="122269" started-at="2017-07-02T17:28:42Z" finished-at="2017-07-02T17:30:45Z">
+  <suite name="Selenium Programs" duration-ms="140488" started-at="2017-07-08T15:11:19Z" finished-at="2017-07-08T15:13:39Z">
     <groups>
     </groups>
-    <test name="Launching a browser" duration-ms="8448" started-at="2017-07-02T17:28:42Z" finished-at="2017-07-02T17:28:51Z">
+    <test name="Launching a browser" duration-ms="8849" started-at="2017-07-08T15:11:19Z" finished-at="2017-07-08T15:11:27Z">
       <class name="pack1.LaunchBrowser">
-        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:pack1.LaunchBrowser@d2e7d9]" name="LaunchChrome" duration-ms="8305" started-at="2017-07-02T22:58:42Z" finished-at="2017-07-02T22:58:51Z">
+        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:pack1.LaunchBrowser@756e4d]" name="LaunchChrome" duration-ms="8689" started-at="2017-07-08T20:41:19Z" finished-at="2017-07-08T20:41:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchChrome -->
       </class> <!-- pack1.LaunchBrowser -->
     </test> <!-- Launching a browser -->
-    <test name="Download a File" duration-ms="21707" started-at="2017-07-02T17:28:51Z" finished-at="2017-07-02T17:29:13Z">
+    <test name="Download a File" duration-ms="17914" started-at="2017-07-08T15:11:28Z" finished-at="2017-07-08T15:11:45Z">
       <class name="pack1.DownloadFile">
-        <test-method status="PASS" signature="downloadFile()[pri:0, instance:pack1.DownloadFile@ee68d8]" name="downloadFile" duration-ms="21703" started-at="2017-07-02T22:58:51Z" finished-at="2017-07-02T22:59:13Z">
+        <test-method status="PASS" signature="downloadFile()[pri:0, instance:pack1.DownloadFile@19f379]" name="downloadFile" duration-ms="17910" started-at="2017-07-08T20:41:28Z" finished-at="2017-07-08T20:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downloadFile -->
       </class> <!-- pack1.DownloadFile -->
     </test> <!-- Download a File -->
-    <test name="Send a search term" duration-ms="8173" started-at="2017-07-02T17:29:13Z" finished-at="2017-07-02T17:29:21Z">
+    <test name="Send a search term" duration-ms="6519" started-at="2017-07-08T15:11:46Z" finished-at="2017-07-08T15:11:52Z">
       <class name="pack1.SendSearchTermKeys">
-        <test-method status="PASS" signature="sendSearchTerm()[pri:0, instance:pack1.SendSearchTermKeys@8a9f61]" name="sendSearchTerm" duration-ms="8159" started-at="2017-07-02T22:59:13Z" finished-at="2017-07-02T22:59:21Z">
+        <test-method status="PASS" signature="sendSearchTerm()[pri:0, instance:pack1.SendSearchTermKeys@5ca609]" name="sendSearchTerm" duration-ms="6515" started-at="2017-07-08T20:41:46Z" finished-at="2017-07-08T20:41:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendSearchTerm -->
       </class> <!-- pack1.SendSearchTermKeys -->
     </test> <!-- Send a search term -->
-    <test name="TextBox Filling and Button Click" duration-ms="24325" started-at="2017-07-02T17:29:21Z" finished-at="2017-07-02T17:29:45Z">
+    <test name="TextBox Filling and Button Click" duration-ms="28877" started-at="2017-07-08T15:11:52Z" finished-at="2017-07-08T15:12:21Z">
       <class name="pack1.TextBoxFillingAndButtonCick">
-        <test-method status="PASS" signature="TextBoxFilling()[pri:0, instance:pack1.TextBoxFillingAndButtonCick@15d3402]" name="TextBoxFilling" duration-ms="24321" started-at="2017-07-02T22:59:21Z" finished-at="2017-07-02T22:59:45Z">
+        <test-method status="PASS" signature="TextBoxFilling()[pri:0, instance:pack1.TextBoxFillingAndButtonCick@1604f19]" name="TextBoxFilling" duration-ms="28873" started-at="2017-07-08T20:41:52Z" finished-at="2017-07-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TextBoxFilling -->
       </class> <!-- pack1.TextBoxFillingAndButtonCick -->
     </test> <!-- TextBox Filling and Button Click -->
-    <test name="Selecting a drop down" duration-ms="21143" started-at="2017-07-02T17:29:45Z" finished-at="2017-07-02T17:30:06Z">
+    <test name="Selecting a drop down" duration-ms="21953" started-at="2017-07-08T15:12:21Z" finished-at="2017-07-08T15:12:43Z">
       <class name="pack1.DropDownSelect">
-        <test-method status="PASS" signature="DropDown()[pri:0, instance:pack1.DropDownSelect@7fa833]" name="DropDown" duration-ms="21139" started-at="2017-07-02T22:59:45Z" finished-at="2017-07-02T23:00:06Z">
+        <test-method status="PASS" signature="DropDown()[pri:0, instance:pack1.DropDownSelect@167c1fc]" name="DropDown" duration-ms="21950" started-at="2017-07-08T20:42:21Z" finished-at="2017-07-08T20:42:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DropDown -->
       </class> <!-- pack1.DropDownSelect -->
     </test> <!-- Selecting a drop down -->
-    <test name="Selecting check box and radio button" duration-ms="38152" started-at="2017-07-02T17:30:06Z" finished-at="2017-07-02T17:30:45Z">
+    <test name="Selecting check box and radio button" duration-ms="40197" started-at="2017-07-08T15:12:43Z" finished-at="2017-07-08T15:13:23Z">
       <class name="pack1.CheckboxRadioButtonSelect">
-        <test-method status="PASS" signature="CheckBoxSelect()[pri:0, instance:pack1.CheckboxRadioButtonSelect@1f3ddb1]" name="CheckBoxSelect" duration-ms="9567" started-at="2017-07-02T23:00:06Z" finished-at="2017-07-02T23:00:16Z">
+        <test-method status="PASS" signature="CheckBoxSelect()[pri:0, instance:pack1.CheckboxRadioButtonSelect@19e13df]" name="CheckBoxSelect" duration-ms="10114" started-at="2017-07-08T20:42:43Z" finished-at="2017-07-08T20:42:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckBoxSelect -->
-        <test-method status="PASS" signature="MultipleCheckBoxSelect()[pri:1, instance:pack1.CheckboxRadioButtonSelect@1f3ddb1]" name="MultipleCheckBoxSelect" duration-ms="11004" started-at="2017-07-02T23:00:16Z" finished-at="2017-07-02T23:00:27Z">
+        <test-method status="PASS" signature="MultipleCheckBoxSelect()[pri:1, instance:pack1.CheckboxRadioButtonSelect@19e13df]" name="MultipleCheckBoxSelect" duration-ms="17144" started-at="2017-07-08T20:42:53Z" finished-at="2017-07-08T20:43:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MultipleCheckBoxSelect -->
-        <test-method status="PASS" signature="SelectRadioButton()[pri:2, instance:pack1.CheckboxRadioButtonSelect@1f3ddb1]" name="SelectRadioButton" duration-ms="17557" started-at="2017-07-02T23:00:27Z" finished-at="2017-07-02T23:00:45Z">
+        <test-method status="PASS" signature="SelectRadioButton()[pri:2, instance:pack1.CheckboxRadioButtonSelect@19e13df]" name="SelectRadioButton" duration-ms="12928" started-at="2017-07-08T20:43:10Z" finished-at="2017-07-08T20:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectRadioButton -->
       </class> <!-- pack1.CheckboxRadioButtonSelect -->
     </test> <!-- Selecting check box and radio button -->
+    <test name="Handling Alerts" duration-ms="15856" started-at="2017-07-08T15:13:23Z" finished-at="2017-07-08T15:13:39Z">
+      <class name="pack1.AlertHandling">
+        <test-method status="PASS" signature="Alerts()[pri:0, instance:pack1.AlertHandling@18355a8]" name="Alerts" duration-ms="15854" started-at="2017-07-08T20:43:23Z" finished-at="2017-07-08T20:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alerts -->
+      </class> <!-- pack1.AlertHandling -->
+    </test> <!-- Handling Alerts -->
+    <test name="Sending Email" duration-ms="0" started-at="2017-07-08T15:13:39Z" finished-at="2017-07-08T15:13:39Z">
+      <class name="pack1.TestReport">
+        <test-method status="PASS" signature="SendMail()[pri:0, instance:pack1.TestReport@4f30ec]" name="SendMail" is-config="true" duration-ms="8769" started-at="2017-07-08T20:43:39Z" finished-at="2017-07-08T20:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMail -->
+      </class> <!-- pack1.TestReport -->
+    </test> <!-- Sending Email -->
   </suite> <!-- Selenium Programs -->
 </testng-results>
