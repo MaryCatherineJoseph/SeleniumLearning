@@ -49,5 +49,10 @@
     </classes>
   </test>
 
+ <test name="Creating and Writing Excel">
+   	<classes>
+      <class name="pack1.CreatingAndWritingExcel"/>
+    </classes>
+  </test>
 
 </suite>
